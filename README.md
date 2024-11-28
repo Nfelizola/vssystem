@@ -1,2 +1,4 @@
-# vssystem
-Projeto para cartas do jogo vs system
+# VSSYSTEM
+<hr>
+<hr>
+## Projeto para cartas do jogo vs system
