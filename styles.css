@@ -1,0 +1,15 @@
+.board{
+    display:flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width:900px;
+    height:600px;
+    background-image: linear-gradient(green, white,rgb(4, 50, 4));
+}
+.carta{
+    display:block;
+    width:200px;
+    height:281px;
+    margin-top:6px;
+}
