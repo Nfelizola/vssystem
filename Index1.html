@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa com as cartas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/img/LOGOVS.jpg">
+</head>
+<body>
+    <!-- no meta usando o normalize como reset de padroes css, o id das cartas mudam porem a classe que fornece
+        o tamanho da carta e sempre o mesmo, a imagem que representa a carta deverá mudar aleatoriamente,
+        neste primeiro exemplo estão fixas as unidades em px.-->
+<div class="topboard" id="decktop">
+<!-- o Board é uma div flexivel que recebe as cartas, ela é o pano verde da mesa.
+    cada carta possui um id diferente  (c1,c2,c3,c4,c5,c6,c7,c8)-->
+<div class="monte" id="montetop">
+    <img src="./img/deckback.png" class="deckback">
+</div>
+</div>
+<script src="cdinamica.js"></script>
+
+</body>
+</html>

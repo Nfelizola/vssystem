@@ -1,15 +1,36 @@
-.board{
+body{
+    background-image: linear-gradient(rgb(45, 47, 45), rgb(16, 14, 14),rgb(45, 47, 45));
+}
+.topboard{
     display:flex;
-    justify-content: space-around;
+    justify-content:last baseline;
     align-content: flex-start;
     flex-wrap: wrap;
-    width:1000px;
-    height:700px;
+    width:1920px;
+    height:530px;
     background-image: linear-gradient(green, white,rgb(4, 50, 4));
 }
+.downboard{
+    display:flex;
+    justify-content:last baseline;
+    align-content:flex-end;
+    flex-wrap: wrap;
+    width:1920px;
+    height:530px;
+    background-image: linear-gradient(rgb(4, 53, 4), white,green);
+}
 .carta{
-    display:block;
-    width:210px;
-    height:280px;
-    margin-top:2px;
+    width:140px;
+    height:177px;
+    margin-top:1px;
+}
+.deck{
+    width:280px;
+    height:177px;
+    margin-top:1px;
+}
+.deckback{
+    width:140px;
+    height:177px;
+    margin-top:1px;
 }
