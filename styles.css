@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
-    background-image: linear-gradient(rgb(45, 47, 45), rgb(16, 14, 14),rgb(45, 47, 45));
+    background-image: rgb(16, 14, 14);
 }
 .topboard{
     display:flex;
@@ -7,8 +8,9 @@ body{
     align-content: flex-start;
     flex-wrap: wrap;
     width:1920px;
-    height:530px;
-    background-image: linear-gradient(green, white,rgb(4, 50, 4));
+    height:560px;
+    background-image: url("./img/fundotop.png");
+    background-size: cover;
 }
 .downboard{
     display:flex;
@@ -16,21 +18,124 @@ body{
     align-content:flex-end;
     flex-wrap: wrap;
     width:1920px;
-    height:530px;
-    background-image: linear-gradient(rgb(4, 53, 4), white,green);
+    height:500px;
+    background-image: url("./img/fundobottom.png");
+    background-size: cover;
+    
 }
+.nctop{
+    margin-left:40px;
+    margin-top: -95px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.ncbottom{
+    margin-left:40px;
+    margin-top: -95px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .carta{
-    width:140px;
-    height:177px;
+    width:100px;
+    height:157px;
     margin-top:1px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 .deck{
-    width:280px;
-    height:177px;
+    width:200px;
+    height:157px;
     margin-top:1px;
 }
 .deckback{
-    width:140px;
-    height:177px;
+    width:100px;
+    height:157px;
     margin-top:1px;
+}
+
+.hoveredtop {
+    transform: scale(1.5);
+    margin-top:80px;
+    
+  }
+  .hovereddown {
+    transform: scale(1.5);
+    margin-bottom:80px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .supportzonet{  
+    position: absolute; /* Posicionamento relativo à tela */
+    top: 23%; /* Centraliza verticalmente */
+    left: 49%; /* Centraliza horizontalmente */
+    width:1600px;
+    height: 180px;
+    transform: translate(-50%, -50%); /* Ajusta para o centro */
+    background-color: rgba(0, 0, 0, 0.2); /* Fundo semitransparente */
+    color: white;
+    padding:0x;
+    border-radius: 10px;
+    border-style: dotted;
+    z-index: 10; /* Garante que fique sobre as outras divs */
+}
+.supportzoned{  
+    position: absolute; /* Posicionamento relativo à tela */
+    top: 75%; /* Centraliza verticalmente */
+    left: 49%; /* Centraliza horizontalmente */
+    width:1600px;
+    height: 180px;
+    transform: translate(-50%, -50%); /* Ajusta para o centro */
+    background-color: rgba(0, 0, 0, 0.2); /* Fundo semitransparente */
+    color: white;
+    padding:0x;
+    border-radius: 10px;
+    border-style: dotted;
+    z-index: 10; /* Garante que fique sobre as outras divs */
+}
+.frontzonet{  
+    position: absolute; /* Posicionamento relativo à tela */
+    top: 40%; /* Centraliza verticalmente */
+    left: 49%; /* Centraliza horizontalmente */
+    width:1600px;
+    height: 180px;
+    transform: translate(-50%, -50%); /* Ajusta para o centro */
+    background-color: rgba(152, 236, 135, 0.2); /* Fundo semitransparente */
+    color: white;
+    padding:0x;
+    border-radius: 10px;
+    border-style: dotted;
+    z-index: 10; /* Garante que fique sobre as outras divs */
+}
+.frontzoned{  
+    position: absolute; /* Posicionamento relativo à tela */
+    top: 58%; /* Centraliza verticalmente */
+    left: 49%; /* Centraliza horizontalmente */
+    width:1600px;
+    height: 180px;
+    transform: translate(-50%, -50%); /* Ajusta para o centro */
+    background-color: rgba(152, 236, 135, 0.2); /* Fundo semitransparente */
+    color: white;
+    padding:0x;
+    border-radius: 10px;
+    border-style: dotted;
+    z-index: 10; /* Garante que fique sobre as outras divs */
+}
+.warning{
+    display: none;
+    background-color: red;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
