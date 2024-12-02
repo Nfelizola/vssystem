@@ -8,7 +8,7 @@ body{
     align-content: flex-start;
     flex-wrap: wrap;
     width:1920px;
-    height:560px;
+    height:530px;
     background-image: url("./img/fundotop.png");
     background-size: cover;
 }
@@ -68,7 +68,10 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   }
 
-  .supportzonet{  
+  .supportzonet{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;   
     position: absolute; /* Posicionamento relativo à tela */
     top: 23%; /* Centraliza verticalmente */
     left: 49%; /* Centraliza horizontalmente */
@@ -77,27 +80,36 @@ body{
     transform: translate(-50%, -50%); /* Ajusta para o centro */
     background-color: rgba(0, 0, 0, 0.2); /* Fundo semitransparente */
     color: white;
+    text-align: center;
+    vertical-align: middle;
     padding:0x;
     border-radius: 10px;
     border-style: dotted;
     z-index: 10; /* Garante que fique sobre as outras divs */
 }
 .supportzoned{  
-    position: absolute; /* Posicionamento relativo à tela */
-    top: 75%; /* Centraliza verticalmente */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;   
+    position: absolute;
+    top: 74%; /* Centraliza verticalmente */
     left: 49%; /* Centraliza horizontalmente */
     width:1600px;
     height: 180px;
     transform: translate(-50%, -50%); /* Ajusta para o centro */
     background-color: rgba(0, 0, 0, 0.2); /* Fundo semitransparente */
     color: white;
+    text-align: center;
     padding:0x;
     border-radius: 10px;
     border-style: dotted;
     z-index: 10; /* Garante que fique sobre as outras divs */
 }
 .frontzonet{  
-    position: absolute; /* Posicionamento relativo à tela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;   
+    position: absolute;
     top: 40%; /* Centraliza verticalmente */
     left: 49%; /* Centraliza horizontalmente */
     width:1600px;
@@ -105,21 +117,26 @@ body{
     transform: translate(-50%, -50%); /* Ajusta para o centro */
     background-color: rgba(152, 236, 135, 0.2); /* Fundo semitransparente */
     color: white;
+    text-align: center;
     padding:0x;
     border-radius: 10px;
     border-style: dotted;
     z-index: 10; /* Garante que fique sobre as outras divs */
 }
 .frontzoned{  
-    position: absolute; /* Posicionamento relativo à tela */
-    top: 58%; /* Centraliza verticalmente */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;   
+    position: absolute; 
+    top: 57%; /* Centraliza verticalmente */
     left: 49%; /* Centraliza horizontalmente */
     width:1600px;
     height: 180px;
     transform: translate(-50%, -50%); /* Ajusta para o centro */
     background-color: rgba(152, 236, 135, 0.2); /* Fundo semitransparente */
     color: white;
-    padding:0x;
+    text-align: center;
+    padding:0px;
     border-radius: 10px;
     border-style: dotted;
     z-index: 10; /* Garante que fique sobre as outras divs */
