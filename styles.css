@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body{
-    background-image: rgb(16, 14, 14);
-}
+body{background-image: rgb(16, 14, 14);}
 .topboard{
     display:flex;
     justify-content:last baseline;
@@ -10,8 +8,7 @@ body{
     width:1920px;
     height:530px;
     background-image: url("./img/fundotop.png");
-    background-size: cover;
-}
+    background-size: cover;}
 .downboard{
     display:flex;
     justify-content:last baseline;
@@ -20,55 +17,40 @@ body{
     width:1920px;
     height:500px;
     background-image: url("./img/fundobottom.png");
-    background-size: cover;
-    
-}
+    background-size: cover;}
 .nctop{
     margin-left:40px;
     margin-top: -95px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
-
-}
+    font-style: normal;}
 .ncbottom{
     margin-left:40px;
     margin-top: -95px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
-}
-
+    font-style: normal;}
 .carta{
     width:100px;
     height:157px;
     margin-top:1px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-}
+    transition: transform 0.3s ease, box-shadow 0.3s ease;}
 .deck{
     width:200px;
     height:157px;
-    margin-top:1px;
-}
+    margin-top:1px;}
 .deckback{
     width:100px;
     height:157px;
-    margin-top:1px;
-}
-
+    margin-top:1px;}
 .hoveredtop {
     transform: scale(1.5);
-    margin-top:80px;
-    
-  }
-  .hovereddown {
+    margin-top:80px;}
+.hovereddown {
     transform: scale(1.5);
     margin-bottom:80px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  }
-
-  .supportzonet{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);}
+.supportzonet{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;   
@@ -85,8 +67,7 @@ body{
     padding:0x;
     border-radius: 10px;
     border-style: dotted;
-    z-index: 10; /* Garante que fique sobre as outras divs */
-}
+    z-index: 10; /* Garante que fique sobre as outras divs */}
 .supportzoned{  
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
@@ -103,8 +84,7 @@ body{
     padding:0x;
     border-radius: 10px;
     border-style: dotted;
-    z-index: 10; /* Garante que fique sobre as outras divs */
-}
+    z-index: 10; /* Garante que fique sobre as outras divs */}
 .frontzonet{  
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
@@ -121,8 +101,7 @@ body{
     padding:0x;
     border-radius: 10px;
     border-style: dotted;
-    z-index: 10; /* Garante que fique sobre as outras divs */
-}
+    z-index: 10; /* Garante que fique sobre as outras divs */}
 .frontzoned{  
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
@@ -139,8 +118,7 @@ body{
     padding:0px;
     border-radius: 10px;
     border-style: dotted;
-    z-index: 10; /* Garante que fique sobre as outras divs */
-}
+    z-index: 10; /* Garante que fique sobre as outras divs */}
 .warning{
     display: none;
     background-color: red;
@@ -153,6 +131,4 @@ body{
     top: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
-
-}
+    font-style: normal;}
