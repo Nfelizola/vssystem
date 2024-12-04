@@ -168,7 +168,6 @@ const MIN_HEIGHT = 800; // Altura mínima
           warning.style.display = "none"; // Oculta o aviso
         }
       }
-      
       window.onload = checkResolution;
       window.onresize = checkResolution;
     
