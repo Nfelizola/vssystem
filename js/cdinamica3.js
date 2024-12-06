@@ -1,3 +1,25 @@
+//  a rotina abaixo Carrega o que estiver no arquivo CSV e converte em array de objetos
+  // assim temos o acesso das umagens e os outros campos cadastrado para cada uma das cartas desejadas
+  // sendo assim não precisamos cadastrar todas as imagens como feito anteriormente
+  // para exemplo cadastramos o DECK de X-MEN neste arquivo Cartas.csv
+  
+  d3.csv("cartas.csv").then(data => {
+    // Exibe os dados no console para verificação
+    
+    // Suponha que você queira manipular os dados em outro lugar do seu código
+    const arrayDeCartas = data; // `data` já é um array de objetos
+
+    // Agora você pode usar `arrayDeCartas` como quiser em seu código
+    arrayDeCartas.forEach(carta => {
+      console.log(`Carta: ${carta.cardName}, Ataque: ${carta.attack}`);
+      console.log(`link para imagem ${carta.raizimagens}${carta.cardNumber}`);
+    });
+    
+  }).catch(error => {
+    console.error("Erro ao carregar o CSV:", error);
+  });
+
+
 const quantidadeCartas = Math.floor(Math.random() * 10) + 1;
 const imagensPossiveis = [
     "./img/deck-xmen/acarga.jpg",
@@ -244,3 +266,5 @@ function cartaarrastada(event){
 
 
 
+
+  
