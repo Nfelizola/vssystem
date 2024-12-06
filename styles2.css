@@ -131,6 +131,46 @@ body{background-image: rgb(16, 14, 14);}
     border-radius: 10px;
     border-style: dotted;
     z-index: 10; /* Garante que fique sobre as outras divs */}
+.kot{  
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center;   
+        position: absolute; 
+        top: 24%; /* Centraliza verticalmente */
+        left: 4%; /* Centraliza horizontalmente */
+        width:100px;
+        height: 170px;
+        transform: translate(-50%, -50%); /* Ajusta para o centro */
+        background-color: rgba(189, 75, 60, 0.2); /* Fundo semitransparente */
+        color:black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal
+        text-align: center;
+        padding:0px;
+        border-radius: 10px;
+        border-style: dotted;
+        z-index: 10; /* Garante que fique sobre as outras divs */}
+.kod{  
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center;   
+            position: absolute; 
+            top: 72%; /* Centraliza verticalmente */
+            left: 4%; /* Centraliza horizontalmente */
+            width:100px;
+            height: 170px;
+            transform: translate(-50%, -50%); /* Ajusta para o centro */
+            background-color: rgba(189, 75, 60, 0.2); /* Fundo semitransparente */
+            color:black;
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal
+            text-align: center;
+            padding:0px;
+            border-radius: 10px;
+            border-style: dotted;
+            z-index: 10; /* Garante que fique sobre as outras divs */}
 .warning{
     display: none;
     background-color: red;
