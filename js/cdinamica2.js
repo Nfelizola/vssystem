@@ -253,6 +253,7 @@ function cartaarrastada(event){
     // Agora você pode usar `arrayDeCartas` como quiser em seu código
     arrayDeCartas.forEach(carta => {
       console.log(`Carta: ${carta.cardName}, Ataque: ${carta.attack}`);
+      console.log(`link para imagem ${carta.raizimagens}${carta.cardNumber}`);
     });
     
   }).catch(error => {
