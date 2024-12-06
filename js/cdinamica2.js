@@ -240,7 +240,21 @@ function cartaarrastada(event){
   console.log("Carta sendo arrastada: ",carta.id);
   console.log("Carta sendo arrastada: " + (carta.alt+" "+carta.src));
   event.dataTransfer.setData('text/plain', event.target.id);
-  
+ };
 
 
-};
+  // Carrega o arquivo CSV e converte em array de objetos
+  d3.csv("cartas.csv").then(data => {
+    // Exibe os dados no console para verificação
+    
+    // Suponha que você queira manipular os dados em outro lugar do seu código
+    const arrayDeCartas = data; // `data` já é um array de objetos
+
+    // Agora você pode usar `arrayDeCartas` como quiser em seu código
+    arrayDeCartas.forEach(carta => {
+      console.log(`Carta: ${carta.cardName}, Ataque: ${carta.attack}`);
+    });
+    
+  }).catch(error => {
+    console.error("Erro ao carregar o CSV:", error);
+  });

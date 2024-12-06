@@ -35,10 +35,11 @@ Se acessarmos apenas https://img.ccgdb.com/vs/cards/24/ , temos acesso a todas a
 ~~~
 
 Iremos cadastrar cada carta a ser usada em um planilha .CSV. 
+Comma Separate Values(CSV).. Dados separados por vírgula.
 
 ~~~csv
-cardName,type,team,cost,attack,defense,health,keywords,abilities,flavorText,set,rarity,quantity
-Homem de Ferro,Character,Avengers,4,6,5,1,"Flight;Range","Tecnologia Avançada: No início do seu turno, você pode olhar as três cartas do topo do seu deck e reorganizá-las.","Eu sou o Homem de Ferro.","Marvel Origins",Rare,4
-Capitão América,Character,Avengers,3,4,4,1,Leader,"Inspirar Coragem: Todos os seus personagens ganham +1 de ataque enquanto Capitão América estiver em campo.","Eu posso fazer isso o dia todo.","Marvel Origins",Rare,4
-Plot Twist - Emboscada,Plot Twist,,2,,,,,"","Dê +3 de ataque a um personagem que você controla neste turno.","Sempre tenha um plano reserva.","Marvel Origins",Common,4
+cardName,cardNumber,raizimagens,type,team,cost,attack,defense,health,keywords,abilities,flavorText
+"Venom, Brain-Eater",MUN-072,https://img.ccgdb.com/vs/cards/24/,Character,Thunderbolts,7,17,14,1,,"ative, nocautei(KO) o personagem alvo que está Stunned.","Saia da frente. estou jogando"
 ~~~
+
+o arquivo cartas.csv pode ser editado dentro do próprio vscode e você poderá cadastrar todas as cartas, se preferir pode usar um editor de planilhas para editar mais rápido, depois e só pedir para gerar um CSV. Geralmente eu prefiro editar usando google planilhas e depois gero com facilidade o CSV.

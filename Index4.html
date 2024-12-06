@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa com as cartas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.2/d3.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="/img/LOGOVS.jpg">
+</head>
+<body>
+    <!-- no meta usando o normalize como reset de padroes css, o id das cartas mudam porem a classe que fornece
+        o tamanho da carta e sempre o mesmo, a imagem que representa a carta deverá mudar aleatoriamente,
+        neste primeiro exemplo estão fixas as unidades em px.-->
+<div class="topboard" id="decktop">
+<!-- o Board é uma div flexivel que recebe as cartas, ela é o pano verde da mesa.
+    cada carta possui um id diferente  (c1,c2,c3,c4,c5,c6,c7,c8)-->
+<div class="monte" id="montetop">
+    <img src="./img/deckback.png" class="deckback">
+    <div class="nctop" id="nctop">@</div>
+</div>
+</div>
+<div class="downboard" id="deckbottom">
+    <div class="monte" id="montedown">
+        <img src="./img/deckback.png" class="deckback">
+        <div class="ncbottom" id="ncbottom">@</div>
+    </div>
+</div>
+<div class="supportzonet" id="szonet">B A C K - R O W</div>
+<div class="supportzoned" id="szoned">B A C K - R O W</div>
+<div class="frontzonet" id="fzonet">F R O N T - R O W</div>
+<div class="frontzoned" id="fzoned">F R O N T - R O W</div>
+<div class="kot" id="kot">KO</div>
+<div class="kod" id="kod">KO</div>
+<div class="recursost" id="rt"></div>
+<div class="recursost" id="rd"></div>
+<!-- Esta última Div serve para emitir o Warnin em tela quando resolução abaixo do esperado-->
+<div id="resolution-warning" class="warning">
+    A resolução mínima necessária é 1920x1080. Ajuste sua janela.
+    o click e, qualquer parte da tela ira maximizar janela"</div>
+
+</body>
+<script src="./js/cdinamica2.js"></script>
+</html>
