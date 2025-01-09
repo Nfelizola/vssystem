@@ -164,9 +164,12 @@ function checkResolution() {
           warning.style.display = "none"; // Oculta o aviso
         }
 }
-window.onload = checkResolution;
+
+// checagem de resolução
+/*window.onload = checkResolution;
 window.onresize = checkResolution;
-    
+*/
+//===========    
 // implementando o sistema de arrastar e soltar..
 // para isto ajustado o draggable="true"  
 // draggableDiv.setAttribute("draggable", "true")
